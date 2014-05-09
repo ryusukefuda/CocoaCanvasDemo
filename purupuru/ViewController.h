@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CSAnimationView.h"
 
 @interface ViewController : UIViewController
+- (IBAction)btnPurupuru:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *faceImageView;
+
+@property (weak, nonatomic) IBOutlet CSAnimationView *animationView;
 
 @end
